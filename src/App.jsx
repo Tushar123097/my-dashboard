@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import BatteryChart from "./components/Batterychart";
-
+import BatteryChart from "./components/BatteryChart";
 function App() {
-  
+
   const [batteryData, setBatteryData] = useState([]);
   const [loading, setLoading] = useState(true);
 
